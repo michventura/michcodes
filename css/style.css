@@ -1,12 +1,71 @@
 /* Tipografía */
+@import url('https://rsms.me/inter/inter.css');
 
 /****************************************
 *    Variables
 *****************************************/
+:root {
+  /* Colores */
+  --primario: #38e925;
+  --primario-claro: #a2f598;
+  --primario-fuerte: #279e19;
+  --secundario: #161917;
+  --secundario-claro: #b2b3b2;
+  --secundario-fuerte: #000000;
+  --blanco: #ffffff;
+  --blanco-oscuro: #f9f9f9;
+  /* Tipografía */
+  font-family: 'Inter var', sans-serif;
+  /* Type-scale */
+  --h1: 121px;
+  --h2: 81px;
+  --h3: 54px;
+  --h4: 36px;
+  --h5: 24px;
+  --h6: 16px;
+}
 
 /****************************************
 *    Base
 *****************************************/
+html {
+  height: 100%;
+}
+
+body {
+  color: var(--secundario);
+  background: var(--blanco-oscuro);
+}
+
+h1 {
+  font-size: var(--h1);
+  color: var(--primario);
+}
+
+h2 {
+  font-size: var(--h2);
+  color: var(--primario-claro);
+}
+
+h3 {
+  font-size: var(--h3);
+  color: var(--primario-fuerte);
+}
+
+h4 {
+  font-size: var(--h4);
+  color: var(--secundario);
+}
+
+h5 {
+  font-size: var(--h5);
+  color: var(--secundario-claro);
+}
+
+h6 {
+  font-size: var(--h6);
+  color: var(--secundario-fuerte);
+}
 
 /****************************************
 *    Componentes
