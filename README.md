@@ -12,7 +12,7 @@
   <p align="center">
     Punto de comienzo para iniciar un proyecto web moderno
     <br />
-    <a href="https://github.com/michventura/michcodes/README.md">Ver documentación »</a>
+    <a href="#tabla-de-contenidos">Ver documentación »</a>
     <br />
   </p>
 </p>
